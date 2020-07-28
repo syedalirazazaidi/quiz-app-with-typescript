@@ -17,6 +17,5 @@ export type Question = {
 export type PropType = {
   question: string;
   option: string[];
-  // callback: (e: React.FormEvent<EventTarget>) => void;
   callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };

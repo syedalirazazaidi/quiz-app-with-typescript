@@ -4,7 +4,6 @@ import { Question } from "./Types/quiz_types";
 import { QuestionCard } from "./Components/QuestionCard";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-// import swal from "sweetalert";
 export const App = () => {
   let [quiz, setQuiz] = useState<Question[]>([]);
   let [current, setCurrentState] = useState(0);
@@ -46,12 +45,6 @@ export const App = () => {
           borderRadius: "5px",
         }}
       >
-        {/* {swal({
-          title: "Quiz Score!",
-          text: `your final score is :${score} out of : ${quiz.length}`,
-          icon: "success",
-        })}
-        {quiz} */}
         <h2
           style={{
             marginTop: "5rem",
@@ -93,7 +86,7 @@ export const App = () => {
       color="#00BFFF"
       height={80}
       width={80}
-      timeout={5000} //3 secs
+      timeout={5000}
     />
   );
 };

@@ -18,7 +18,6 @@ export const QuestionCard: React.FC<PropType> = ({
           />
         </div>
         <div className="grid grid-cols-2 gap-6 mt-6">
-          {/* <form className="grid grid-cols-2 gap-6 mt-6" onSubmit={callback}> */}
           {option.map((answers: string, i: number) => (
             <button
               key={i}
@@ -26,11 +25,8 @@ export const QuestionCard: React.FC<PropType> = ({
               value={answers}
               onClick={callback}
               dangerouslySetInnerHTML={{ __html: answers }}
-            >
-              {/* {answers} */}
-            </button>
+            ></button>
           ))}
-          {/* </form> */}
         </div>
       </div>
     </div>
