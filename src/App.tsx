@@ -19,7 +19,6 @@ export const App = () => {
   const reStart = () => {
     window.location.reload();
     setQuiz([]);
-    setScore(0);
   };
   const answerSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
