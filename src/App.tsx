@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Questionear } from "./services/api";
-import { Question, Quiz } from "./Types/quiz_types";
+import { Question } from "./Types/quiz_types";
 import { QuestionCard } from "./Components/QuestionCard";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";

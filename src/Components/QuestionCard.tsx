@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { PropType } from "../Types/quiz_types";
 export const QuestionCard: React.FC<PropType> = ({
   question,
