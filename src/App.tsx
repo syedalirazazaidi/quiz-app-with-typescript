@@ -64,7 +64,18 @@ export const App = () => {
         >
           Your final score is :{score} out of {quiz.length}
         </h2>
-        <button onClick={reStart}>Play again</button>
+        <button
+          style={{
+            marginTop: "40px",
+            marginLeft: "6rem",
+            backgroundColor: "#f1f1f1",
+            padding: "10px 5px",
+            borderRadius: "5px",
+          }}
+          onClick={reStart}
+        >
+          Play again
+        </button>
       </div>
     );
   }
