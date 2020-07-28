@@ -4,7 +4,7 @@ import { Question } from "./Types/quiz_types";
 import { QuestionCard } from "./Components/QuestionCard";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import swal from "sweetalert";
+// import swal from "sweetalert";
 export const App = () => {
   let [quiz, setQuiz] = useState<Question[]>([]);
   let [current, setCurrentState] = useState(0);
